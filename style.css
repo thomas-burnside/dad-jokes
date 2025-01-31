@@ -1,0 +1,46 @@
+body {
+    background-color: #e2e2e2;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dad-jokes{
+    background-color: white;
+    max-width: 600px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 40px;
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(to left bottom, #5271ff, lightpink);
+    box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+    width: 85%;
+}
+
+.dad-jokes .heading{
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 35pxz;
+}
+
+.dad-jokes .joke{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.dad-jokes .btn{
+    margin-top: 2opx;
+    margin-bottom: 20px;
+    font-size: 22px;
+    background-color: #0097b2;
+    color: white; 
+    padding: 10px 20px;
+    border: 2px solid #ffbd59;
+    cursor: pointer;
+}
+
+.dad-jokes .btn:hover{
+    box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+}
